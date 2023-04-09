@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://justsoc.github.io/sitemap.xml
