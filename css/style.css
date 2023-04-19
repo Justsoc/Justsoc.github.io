@@ -338,9 +338,81 @@ textarea {
     vertical-align: top
 }
 
+.main {
+    width: 100%;
+}
+
 table {
-    border-collapse: collapse;
-    border-spacing: 0
+    border-spacing: 0;
+    width: 100%;
+}
+
+tr {
+    text-align: center;
+}
+
+th {
+    padding: 10px;
+}
+
+td {
+    display: table-cell;
+    vertical-align: inherit;
+    padding: 10px;
+}
+
+table tbody tr:nth-child(odd) {
+    background-color: #dbdbdb
+}
+
+table thead {
+    background-color: #1a1a1ac7;
+    color: white;
+}
+
+table thead th:first-child {
+    border-radius: 5px 0 0 0;
+    border: 1px solid #1a1a1ac7;
+}
+
+.text-ali {
+    text-align: center;
+    margin: 30px auto;
+}
+
+.text-ali a {
+    color: #fff;
+    background: #CB2027;
+    border: 1px solid #CB2027;
+    padding: 12px 28px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.tabs a {
+    color: #0e0e0e;
+    text-decoration: none;
+    margin: 15px;
+    font-weight: bold;
+}
+
+table thead td {
+    border-radius: 5px 0 0 0;
+    border: 1px solid #1a1a1ac7;
+}
+
+table thead th:last-child {
+    border-radius: 0 5px 0 0;
+    border-right: 1px solid #1a1a1ac7;
+}
+
+table tbody tr:last-child td:first-child {
+    border-radius: 0 0 0 5px;
+}
+
+table tbody tr:last-child td:last-child {
+    border-radius: 0 0 5px 0;
 }
 
 
